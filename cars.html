@@ -1,0 +1,216 @@
+<html lang="en"></html>
+  
+   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@100;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@400;700&display=swap" rel="stylesheet">
+    <title>Cars</title>
+    <style>
+    .text-custom-gray {
+      color: #282828;
+    }
+    .bg-custom-gray {
+      background-color: #282828;
+    }
+    .button-custom-blue {
+      background-color: #0147FF;
+    }
+    .border-custom-blue {
+      border-color: #0147FF;
+    }
+    .white {
+      color: white;
+    }
+    .custom-blue {
+      color: #0147FF;
+    }
+    .light-gray {
+      color: #F7F7F7;
+    }
+    .bg-light-grayF7 {
+      background-color: #F7F7F7;
+    }
+    .bg-light-grayF1 {
+      background-color: #F1F1F1;
+    }
+    .font-size-15 {
+      font-size: 15px;
+      line-height: 22.5px;
+    }
+    .font-size-55 {
+      font-size: 55px;
+      line-height: 63.92px;
+    }
+    .tracking-neg-4 {
+      letter-spacing: -0.04em;
+    }
+    .font-size-2150 {
+      font-size: 21.50px;
+      line-height: 32.25px;
+    }
+    .font-size-40 {
+      font-size: 40px;
+      line-height: 48px;
+    }
+    .font-size-25 {
+      font-size: 25px;
+      line-height: 37.5px;
+    }
+    .color1D1D1B {
+      color: #1d1d1d;
+    }
+    .font-size-14 {
+      font-size: 14px;
+      line-height: 21px;
+    }
+    .font-size-16 {
+      font-size: 16px;
+      line-height: 24px;
+    }
+    @media (max-width: 1439px) {
+      .displayNone1439 {
+        display: none;
+      }
+      .callUs1439 {
+        position: absolute;
+        left: 60%;
+      }
+      .companyPresentation1439 {
+        position: relative;
+        top: 50px;
+      }
+      .galleryContainer1439 {
+        height: 1678px;
+      }
+      .gallery1439Alfa {
+
+        position: relative;
+        left: 25%;
+      }
+      .gallery1439Maserati {
+        position: relative;
+        left: 25%;
+        top: 100px;
+      }
+      .gallery1439Audi {
+        position: relative;
+        left: 25%;
+        top: 200px;
+      }
+      .leftSideFooter1439,
+      .rightSideFooter1439 {
+        position: relative;
+        left: 25%;
+        top: 100px;
+      }
+      .footer1439 {
+        height: 833px;
+      }
+      .footerCopyrights1439 {
+        left: 30%;
+      }
+
+    }
+    @media (max-width: 464px) {
+      .callUs464 {
+        position: absolute;
+        left: 25%;
+      }
+      .startingButtons464 {
+        display: inline-block;
+      }
+    }
+  </style>
+  </head>
+
+  <body class = "overflow-x-hidden">
+
+    <header>
+      <div class = "w-full h-[79px] pt-[16px] pr-0 pb-[16px] pl-0 gap-[10px]" id = "header">
+        <div id = "headerMenuContainer" class = "w-[1200px] h-[47px] m-auto flex justify-between">
+        <div id = "logo" class = "w-[300px] h-[47px]">
+          <img src = "images/logo.png" alt = "logo" class = "w-[150px] h-[32px] relative top-[1px] left-[0px]">
+        </div>
+        <div id = "headerList" class = "w-[144px] h-[24px] gap-[24px]">
+          <ul class = "inline-flex font-roboto font-normal text-base text-center text-custom-gray displayNone1439">
+            <li>Galeria zdjęć</li>
+            <li class = "ml-[10px]">FaQ</li>
+          </ul>
+        </div>
+        <div id = "callUs" class = "w-[300px] h-[47px] callUs1439 callUs464">
+          <button id = "callUs" class = "w-[158px] h-[47px] gap-[8px] rounded-lg button-custom-blue relative left-[142px] light-gray font-roboto font-semibold font-size-15 z-10">Zadzwoń do nas</button>
+        </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div id = "starting" class = "w-full h-[585px]">
+          <div id = "startingCaption" class = "w-5/6 h-[343px] m-auto relative top-[120px] gap-[48px]">
+            <p class = "font-bebas font-medium font-size-55 text-custom-gray tracking-neg-4">SPRZEDAJEMY SAMOCHODY<br>Z EUROPY</p>
+            <p class = "font-robotoCondensed font-normal text-base text-custom-gray relative top-[32px]">Kup komfortowy pojazd aby każda podróż <br>była wyjątkowym przeżyciem</p>
+            <div id = "startingButtons" class = "w-5/6 h-[47px] relative top-[48px]">
+              <button class = "w-[148px] h-[47px] gap-[8px] light-gray button-custom-blue rounded-lg relative top-[48px] font-robotoFlex font-semibold font-size-15 text-center">Zobacz zdjęcia</button>
+              <button class = "w-[158px] h-[47px] gap-[8px] border border-custom-blue custom-blue rounded-lg relative top-[48px] left-[24px] font-robotoFlex font-semibold font-size-15 text-center">Zadzwoń do nas</button>
+            </div>
+            <div id = "startingImage">
+              <img src = "images/ThreeCars.png" alt = "threeCars" class = "absolute left-[26%] top-[208px] w-[1064px] h-[404.37px] z-10 displayNone1439">
+              <img src = "images/linesImage.png" alt = "lines" class = "absolute left-[48%] top-[-199px] w-[668.05px] h-[659px] z-0 displayNone1439">
+            </div>
+          </div>
+          </div>
+
+          <div id = "companyPresentation" class = "w-full h-[207px] pt-[80px] relative top-[100px] companyPresentation1439">
+            <div id = "companyPresentationContent" class = "w-[1264px] h-[127px] gap-[24px] ml-[88px]">
+            <span class = "font-robotoCondensed font-normal font-size-2150 text-center custom-blue relative top-[0px]">Prezentacja firmy</span>
+            <span class = "font-bebas font-normal font-size-40 color1D1D1B relative top-[42px] left-[-168px] tracking-neg-4">ZOBACZ NASZĄ GALERIĘ ZDJĘĆ</span>
+            <ul>
+              <li class = "font-robotoFlex font-semibold font-size-15 text-center custom-blue relative top-[84px] left-[-560px]">Samochody osobowe</li>
+              <li class = "font-robotoFlex font-normal font-size-15 text-center text-black relative top-[63px] left-[-200px]">Samochody dostawcze</li>
+            </ul>
+            </div>
+            </div>
+
+            <div id = "galleryContainer" class = "w-full h-[678px] pt-[80px] gap-[48px] relative top-[100px] bg-light-gray galleryContainer1439">
+              <img src = "images/Alfa.png" alt = "Alfa Romeo" class = "w-[600px] h-[446px] absolute left-[88px] gallery1439Alfa">
+              <img src = "images/Maserati.png" alt = "Maserati" class = "w-[600px] h-[446px] absolute left-[752px] gallery1439Maserati">
+              <img src = "images/Audi.png" alt = "Audi" class = "w-[600px] h-[446px] absolute left-[1416px] gallery1439Audi">
+            <div id = "dotsSlider" class = "w-[80px] h-[24px] relative top-[48px] left-[680px] inline-flex displayNone1439">
+              <div class = "w-[8px] h-[8px] rounded-full button-custom-blue"></div>
+              <div class = "w-[8px] h-[8px] rounded-full bg-light-grayF1 ml-[10px]"></div>
+              <div class = "w-[8px] h-[8px] rounded-full bg-light-grayF1 ml-[10px]"></div>
+              <div class = "w-[8px] h-[8px] rounded-full bg-light-grayF1 ml-[10px]"></div>
+              <div class = "w-[8px] h-[8px] rounded-full bg-light-grayF1 ml-[10px]"></div>
+            </div>
+          </div>
+    </main>
+
+    <footer>
+      <div id = "footer" class = "w-full h-[433px] pt-[88px] gap-[80px] relative top-[100px] bg-custom-gray footer1439">
+        <div id = "leftSideText" class = "w-[576px] h-[185px] gap-[16px] absolute left-[120px] leftSideFooter1439">
+          <p class = "font-bebas font-bold font-size-25 white">ID NOSTRUD ENIM ESSE CONSECTETUR IN EU MOLLIT FUGIAT AUTE. VELIT NULLA COMMODO.</p>
+          <p class = "font-robotoCondensed font-normal font-size-14 text-white relative top-[16px]">Mauris varius ipsum mauris, rutrum lobortis magna efficitur a. Donec egestas, nisl vehicula feugiat ornare, diam turpis efficitur mi, ac venenatis eros ipsum ac arcu. Vestibulum et  [...]</p>
+          <span class = "font-robotoCondensed font-normal font-size-14 text-white relative top-[24px]">Rozwiń</span>
+          
+        </div>
+        <div id = "rightSideText" class = "w-[576px] h-[185px] gap-[16px] absolute left-[744px] rightSideFooter1439">
+          <p class = "font-bebas font-bold font-size-25 white">ID NOSTRUD ENIM ESSE CONSECTETUR IN EU MOLLIT FUGIAT AUTE. VELIT NULLA COMMODO.</p>
+          <p class = "font-robotoCondensed font-normal font-size-14 text-white relative top-[16px]">Mauris varius ipsum mauris, rutrum lobortis magna efficitur a. Donec egestas, nisl vehicula feugiat ornare, diam turpis efficitur mi, ac venenatis eros ipsum ac arcu. Vestibulum et  [...]</p>
+          <span class = "font-robotoCondensed font-normal font-size-14 text-white relative top-[24px]">Rozwiń</span>
+          
+        </div>
+        <div id = "copyrights"  class = "w-full bg-custom-gray relative top-[341px]">
+        <span class = "font-robotoCondensed font-bold font-size-16 text-center text-white relative left-[120px] bottom-[24px]">Cars Spot</span>
+          <li class = "font-robotoCondensed font-normal font-size-16 text-center text-white relative left-[539px] bottom-[44px] list-none footerCopyrights1439">Polityka prywatności</li>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
